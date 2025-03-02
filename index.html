@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Preveri Steam Igro</h1>
+        <input type="text" id="gameInput" placeholder="Enter Steam App ID or URL">
+        <button onclick="checkGame()">Submit</button>
+        <p id="gameResult"></p>
+        <p id="gameResult"></p>
+        <a id="downloadBtn" style="display:none;" href="#" download>📥 Download game</a>
+
+        
+        <!-- Gumb za prenos igre -->
+        <a id="downloadBtn" href="#" style="display:none;">
+            <button>Prenesi igro</button>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
